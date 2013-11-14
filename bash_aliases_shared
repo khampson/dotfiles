@@ -1,0 +1,57 @@
+# Generic bash aliases meant to be shared across my machines
+#
+# Written/compiled by Ken Hampson, 2013, hampsonk+github@gmail.com
+#
+# This is a combination of aliases I've personally found useful and lists of useful aliases off the web.
+
+## git
+alias ga='git add'
+alias gp='git push'
+alias gpl='git pull'
+alias gr='git rm'
+alias gs='git status'
+alias gco='git checkout'
+alias gpm='git push mnthome'
+alias gc='git commit'
+alias gca='git commit -a'
+alias gdh='git diff HEAD'
+alias glfo='git ls-files --other'           # list untracked files; useful before deleting a repo and re-cloning to see if there's anything you still want
+
+
+# gvim
+alias g='gvim'
+
+
+# apt
+alias agi='sudo apt-get install'
+alias agr='sudo apt-get remove'
+alias agu='sudo apt-get update'
+alias acs='apt-cache search'
+
+
+# file management
+alias la='ls -alh'
+alias cp='cp -iv'
+alias mv='mv -iv'
+
+alias ll='ls -alF'
+alias lA='ls -A'
+alias l='ls -CF'
+alias lh='ls -ltrh'
+
+
+# Navigating file system
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# ssh-related
+alias sshpass='ssh -o PreferredAuthentications=password'
+
+# misc
+alias e='exit'
+alias s='sudo'
+alias lock='gnome-screensaver-command --lock'
+alias hpg='history | grep'
+
+

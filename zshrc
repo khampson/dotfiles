@@ -82,6 +82,18 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # For a full list of active aliases, run `alias`.
 
 
+# If there are specific environment settings, import them
+if [ -f ~/.zshenv_specific ]; then
+    source ~/.zshenv_specific
+fi
+
+# If there are shared environment settings, import them
+if [ -f ~/.zshenv_shared ]; then
+    source ~/.zshenv_shared
+fi
+
+
+
 # Generic, shared aliases file (from my github). Have this first so the specific one will override anything that overlaps
 if [ -f ~/.bash_aliases_shared ]; then
     . ~/.bash_aliases_shared

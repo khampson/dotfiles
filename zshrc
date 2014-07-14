@@ -9,7 +9,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 
 # This uses a powerline-like style
-ZSH_THEME="agnoster"
+# Using a slightly tweaked version of the 'agnoster' theme that ships with oh-my-zsh.
+ZSH_THEME="agnoster-cust"
 
 
 # Uncomment the following line to use case-sensitive completion.

@@ -32,7 +32,7 @@ echo "$PREFIX Linking zshrc from git repo into home directory"
 ln -s ~/workspace/dotfiles/zshrc ~/.zshrc
 
 echo "$PREFIX Linking oh-my-zsh custom theme from git repo into oh-my-zsh custom directory"
-ln -s ~/workspace/dotfiles/oh-my-zsh/custom/agnoster-cust.zsh-theme agnoster-cust.zsh-theme
+ln -s ~/workspace/dotfiles/oh-my-zsh/custom/agnoster-cust.zsh-theme ~/.oh-my-zsh/custom/agnoster-cust.zsh-theme
 
 echo "$PREFIX NOTE: You need to restart before the changes take effect."
 echo "$PREFIX NOTE: You need to change the font in the terminal settings to be one of the Powerline-compatible fonts."

@@ -45,6 +45,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+alias cdw='cd ~/workspace'
+
 # ssh-related
 alias sshpass='ssh -o PreferredAuthentications=password'
 

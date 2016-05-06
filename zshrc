@@ -105,3 +105,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# For tmuxline
+export TERM=xterm-256color
+

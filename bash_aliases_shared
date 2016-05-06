@@ -51,9 +51,10 @@ alias cdw='cd ~/workspace'
 alias sshpass='ssh -o PreferredAuthentications=password'
 
 # misc
-alias e='exit'
+alias e='GTK_THEME=Adwaita:light ~/eclipse-mars/eclipse/eclipse &'
 alias s='sudo'
 alias lock='gnome-screensaver-command --lock'
 alias hpg='history | grep'
-
+alias pst='pstree -a -c -g -l -p'
+alias ffl='GTK_THEME=Adwaita:light firefox &'
 

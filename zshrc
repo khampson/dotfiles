@@ -61,6 +61,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export EDITOR='vim'
+
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -82,6 +84,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+# completion file for tmuxinator
+source ~/tmuxinator.zsh
 
 # If there are specific environment settings, import them
 if [ -f ~/.zshenv_specific ]; then

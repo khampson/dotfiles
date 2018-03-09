@@ -10,8 +10,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 # This uses a powerline-like style
 # Using a slightly tweaked version of the 'agnoster' theme that ships with oh-my-zsh.
-ZSH_THEME="agnoster-cust"
-
+# ZSH_THEME="agnoster-cust"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -111,6 +111,15 @@ fi
 
 # For tmuxline
 export TERM=xterm-256color
+
+
+
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
+
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
+POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
+
 
 PATH="~/perl5/bin${PATH+:}${PATH}"; export PATH;
 PERL5LIB="~/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5LIB;
